@@ -43,7 +43,6 @@ export class MyElement extends LitElement {
         Click Count: ${this.count}
       </button>
 
-      
       <slot></slot>
     `;
   }

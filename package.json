@@ -72,8 +72,9 @@
     "web-component-analyzer": "^1.0.3"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.ts": "eslint --cache --fix",
-    "*.--write": "prettier --write"
+    "*": [
+      "lint",
+      "format"
+    ]
   }
 }
